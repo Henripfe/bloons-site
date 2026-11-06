@@ -1,22 +1,57 @@
 .indexfundo{
     background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/imagens/bloons-td-6-1nk8r.png)
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/imagens/bloonsfundo.png)
 }
 .titulos{
     font-size: 35pt;
-    color: white;
+    color: blue;
     text-align: center;
-    transition: all 2s;
-}
-.titulos:hover{
-    font-size: 50pt;
-    color: white;
-    text-align: center;
-    transition: all 2s;
 }
 .fundo{
-    background-color: aqua;
+    width: 70%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 50px auto;
+    border: solid 8px blue;
 }
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-size: 20pt;
+}
+#menu ol{
+    margin-top: 80px;
+}
+#menu li {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    margin: 5px;
+    border: solid 3px blue;
+    border-radius: 20px;
+    font-size: 20pt;
+    transition: all 0.5s;
+}
+#menu li:hover {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    margin: 5px;
+    border: solid 3px white;
+    border-radius: 20px;
+    font-size: 23pt;
+    transition: all 0.5s;
+}
+
+#menu li img {
+    width: 70px;
+    height: 50px;
 }
