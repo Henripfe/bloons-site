@@ -14,6 +14,9 @@
     text-align: center;
     transition: all 2s;
 }
+.fundo{
+    background-color: aqua;
+}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
