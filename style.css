@@ -1,5 +1,8 @@
 .indexfundo{
+    overflow: auto;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/imagens/bloonsfundo.png)
 }
 .titulos{
@@ -8,8 +11,10 @@
     text-align: center;
 }
 .fundo{
+    position: relative;
+    overflow: hidden;
     width: 70%;
-    height: 100%;
+    height: fit-content;
     background-color: rgba(0, 0, 0, 0.85);
     color: white;
     border-radius: 20px;
@@ -54,4 +59,47 @@ p{
 #menu li img {
     width: 70px;
     height: 50px;
+}
+a{
+    color: white;
+}
+#voltar{
+    position: absolute;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+#voltar:hover{
+    position: absolute;
+    background-color: blue;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.formatacaomacacos{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.formatacaomacacos img{
+    border: solid 3px white;
+    border-radius: 20px;
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin-right: 20px;
+    clear: both;
+}
+.formatacaomacacos p{
+    flex: 1;
+}
+.formatacaomacacos h2{
+    width: 200px;
+}
+.primario{
+    color: lightblue;
+}
+.militar{
+    color: green;
 }
