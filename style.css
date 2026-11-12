@@ -105,6 +105,14 @@ a{
     color: crimson;
 }
 
+.especiais{
+    color: gold;
+}
+
+.moabs{
+    color: cyan;
+}
+
 .balao1{
     color: red;
 }
@@ -122,7 +130,7 @@ a{
 }
 
 .balao5{
-    color: pink;
+    color: palevioletred;
 }
 
 .balao6{
@@ -136,6 +144,54 @@ a{
 
 .balao8{
     color: purple;
+}
+
+.balao9{
+    color: lightgray;
+}
+
+.balao10{
+    color: lightslategray;
+}
+
+.balao11{
+    color: orange;
+}
+
+.balao12{
+    color: #b36c47;
+}
+
+.balao13{
+    color: greenyellow;
+}
+
+.balao14{
+    color: pink;
+}
+
+.balao15{
+    color: firebrick;
+}
+
+.moab{
+    color: blue;
+}
+
+.bfb{
+    color: darkred;
+}
+
+.zomg{
+    color: chartreuse;
+}
+
+.ddt{
+    color: grey;
+}
+
+.bad{
+    color: blueviolet;
 }
 
 .militar{
