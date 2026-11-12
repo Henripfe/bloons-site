@@ -100,6 +100,44 @@ a{
 .primario{
     color: lightblue;
 }
+
+.baloes {
+    color: crimson;
+}
+
+.balao1{
+    color: red;
+}
+
+.balao2{
+    color: lightskyblue;
+}
+
+.balao3{
+    color: green;
+}
+
+.balao4{
+    color: yellow;
+}
+
+.balao5{
+    color: pink;
+}
+
+.balao6{
+    color: black;
+    background-color: white;
+}
+
+.balao7{
+    color: white;
+}
+
+.balao8{
+    color: purple;
+}
+
 .militar{
     color: green;
 }
