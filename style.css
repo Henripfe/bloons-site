@@ -30,9 +30,15 @@ p{
     font-size: 20pt;
 }
 
-.tierlist{
+.botaotier{
     font-size: 20pt;
 }
+
+.tierlist{
+    height: 90%;
+
+}
+
 
 #menu ol{
     margin-top: 80px;
