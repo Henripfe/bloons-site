@@ -28,6 +28,11 @@ body{
 p{
     font-size: 20pt;
 }
+
+.tierlist{
+    font-size: 22pt;
+}
+
 #menu ol{
     margin-top: 80px;
 }
